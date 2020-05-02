@@ -1,0 +1,49 @@
+body {
+    background-color: darkslategray;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+.graph-container {
+    background-color: lightgray;
+    height: 500px;
+    position: relative;
+}
+
+.edge {
+    background-color: black;
+    box-shadow: 0px 0px 5px gray;
+    height: 8px;
+    transition: all ease 0.2s;
+    z-index: 0;
+}
+
+.edge:hover {
+    box-shadow: 0px 0px 5px blue;
+    cursor: pointer;
+    transition: all ease 0.2s;   
+}
+
+.vertex {
+    color: white;
+    background-color: rebeccapurple;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: all ease 0.2s;
+    z-index: 1;
+}
+
+.vertex:hover {
+    border: 3px solid darkorchid;
+    box-shadow: 3px 3px 4px gray;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
